@@ -11,4 +11,4 @@ hidden_1_value = (input_data*weight_hidden_1).sum() #hidden_1_value을 계산하
 print(hidden_0_value, hidden_1_value, sep=',')  #hidden_0_value와hidden_1_value인 21,-13출력
 
 output = hidden_0_value*weight_output[0]+hidden_1_value*weight_output[1]    #hidden_0_value와 hidden_1_value을 weight_output에서 정의된 2와 7을 각각 곱한후 더함
-print(output)   #21x2+(-13)x7=-49출력
+print(output)   #21x2+(-13)x7=-49출력하기
